@@ -1,1 +1,3 @@
-# gitLA13
+#about Me 
+
+My name is James Kenneth Margen
