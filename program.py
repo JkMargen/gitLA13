@@ -1,3 +1,9 @@
+try:
+ filename = 'file1.txt'
+ file = open(filename, "x")
+ print(filename + " successfully created.")
+except:
+ print(filename + " already exists.")
 
 print("A - Add Record")
 print("B - View Records")
@@ -18,9 +24,3 @@ while choice.upper() != 'D':
  elif choice.upper() == 'D':
  print("Thank you!")
 
-try:
- filename = 'file1.txt'
- file = open(filename, "x")
- print(filename + " successfully created.")
-except:
- print(filename + " already exists.")
